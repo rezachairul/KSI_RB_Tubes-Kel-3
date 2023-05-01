@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Perpusda Lampung</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Perpusda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Data Master
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="data_buku.php">Buku</a></li>
+                    <li><a class="dropdown-item" href="data_penulis.php">Penulis</a></li>
+                    <li><a class="dropdown-item" href="data_penerbit.php">Penerbit</a></li>
+                    <li><a class="dropdown-item" href="data_kategori.php">Kategori</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.php" tabindex="-1" aria-disabled="true">Admin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php" tabindex="-1" aria-disabled="true">LogOut</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Content -->
+        <div class="content container">
+            <div class="row">
+                <div class="col-lg-12 mt-3">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                        <h1 class="display-4">Selamat Datang</h1>
+                        <h3 class="display-6">Perpustakaan Daerah Provinsi Lampung</h3>
+                        <p class="lead text-center">Berdasarkan Peraturan Daerah Provinsi Lampung Nomor 8 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah Provinsi Lampung disebutkan bahwa Dinas Perpustakaan dan Kearsipan Provinsi Lampung mempunyai tugas membantu Gubernur dalam menyelenggarakan pengembangan, pendayagunaan, pembinaan semua jenis perpustakaan sesuai dengan kewenangannya dalam rangka pelestarian hasil budaya , menyelenggarakan pelayanan informasi ilmu pengetahuan, teknologi dan kebudayaan ,menyelenggarakan perpustakaan umum daerah yang koleksinya mendukung pelestarian hasil budaya daerah masing-masing dan memfasilitasi terwujudnya masyarakat pembelajar sepanjang hayat, serta  melaksanakan urusan kearsipan di lingkungan Provinsi Lampung.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Content -->
+        <div class="section-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Buku</h5>
+                                <p class="card-text">Total Buku 300</p>
+                                <a href="data_buku.php" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-3">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Data Anggota</h5>
+                                <p class="card-text">Daftar Anggota perpustakaan sebanyak 10</p>
+                                <a href="data_anggota.php" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+    
+        <!-- Footer -->
+        <div class="container-fluid text-white p-3 mt-5" style="font-family: 'Poppins', sans-serif; background: rgb(43, 1, 53);">
+        
+            <div class="ftext">
+                <h3 class="text-center fw-bold">Tentang Kami </h3>
+                <p class="text-center">Pada awalnya Perpustakaan yang berlokasi di Jalan W. Mongonsidi ini disebut Perpustakaan Wilayah Departemen Pendidikan dan Kebudayaan Provinsi Lampung yang merupakan Unit Pelaksana Teknis (UPT) Pusat Pembinaan Depdikbud. Dengan terbitnya Keppres RI No. 11 Tahun 1989 tentang Perpustakaan, Perpustakaan Wilayah berubah nomenklatur menjadi Perpustakaan Daerah Lampung
+                </p>
+                <center> <a href="https://www.bing.com/maps?osid=73192c20-17de-4829-b541-336f59779a0b&cp=-5.376765~104.913254&lvl=11&pi=0&v=2&sV=2&form=S00027"><button class="btn btn-black btn-outline-light">Let's Join Us</button></a> </center>
+            </div>
+            <br>
+            <div class="fcontent">
+                <div class="row justify-content-around text-center-md-start">
+                    <div class="col-md-2 text-center">
+                        <h1 class="mt-3">Perpuda Lampung</h1>
+                        <h7>Dinas Perpustakaan dan Kearsipan Provinsi Lampung  </h7>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">Partnership</li>
+                            <li><a href="#" class="text-decoration-none text-white">Website</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Social Media</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">branding</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">About</li>
+                            <li><a href="#" class="text-decoration-none text-white">Tentang Kami</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Data Pegawai</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">Support</li>
+                            <li><a href="#" class="text-decoration-none text-white">Contact</a></li>
+                            <li><a href="#" class="text-decoration-none text-white">Support Request</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="fw-bold my-2 list-unstyled">
+                        <li>Follow Us</li>
+                        </ul>
+                        <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+                        <li><a href="#" class="text-decoration-none text-white"><i class="fab fa-facebook me-2 fa-1x"></i>Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"><i class="far fa-envelope mx-2 fa-1x"></i>Email</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"><i class="fab fa-instagram mx-2 fa-1x"></i>Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none text-white"><i class="fab fa-youtube mx-2 fa-1x"></i>Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="frow">
+                <div class="col-md12 text-center pt-2">
+                    <p>&copy;2023 Kelompok 3 KSI_RB</p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    </body>
+</html>
